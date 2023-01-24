@@ -6,6 +6,7 @@ import { Filter } from './Filter';
 
 export const App = () => {
   const { isLoading, error } = useSelector(state => state.contacts);
+  console.log(isLoading);
   return (
     <div className="app">
       <h1>Phonebook</h1>
